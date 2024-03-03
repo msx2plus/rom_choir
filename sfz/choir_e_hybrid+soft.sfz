@@ -1,0 +1,107 @@
+// Name: choir_e_hybrid+soft
+// Created with OpenMPT 1.30.04.00
+// Envelope tempo base: tempo 125 (classic tempo mode)
+
+<control>
+default_path=choir_e_hybrid+soft/
+
+<group>
+bend_up=200
+bend_down=-200
+ampeg_release=2.56 // 256
+ampeg_release_shape=0
+
+eg01_amplitude=100
+eg01_points=7
+eg01_time0=0
+eg01_level0=0
+eg01_time1=0.48
+eg01_level1=1
+eg01_time2=0.36
+eg01_level2=0.78125
+eg01_time3=0.38
+eg01_level3=0.46875
+eg01_time4=0.52
+eg01_level4=0.25
+eg01_time5=0.98
+eg01_level5=0.09375
+eg01_time6=3.34
+eg01_level6=0
+eg01_sustain=1
+
+<region>
+region_label=eee_soft
+sample=choir_e_hybrid+soft 1.flac
+lokey=0
+hikey=64
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=9335
+loop_end=107072
+loop_type=forward
+
+<region>
+region_label=eee_soft
+sample=choir_e_hybrid+soft 2.flac
+lokey=65
+hikey=69
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=11062
+loop_end=118370
+loop_type=forward
+
+<region>
+region_label=eee_soft
+sample=choir_e_hybrid+soft 3.flac
+lokey=70
+hikey=74
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=11910
+loop_end=126408
+loop_type=forward
+
+<region>
+region_label=eee_soft
+sample=choir_e_hybrid+soft 4.flac
+lokey=75
+hikey=79
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=15958
+loop_end=102821
+loop_type=forward
+
+<region>
+region_label=eee_soft
+sample=choir_e_hybrid+soft 5.flac
+lokey=80
+hikey=84
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=11641
+loop_end=102623
+loop_type=forward
+
+<region>
+region_label=eee_soft
+sample=choir_e_hybrid+soft 6.flac
+lokey=85
+hikey=89
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=10958
+loop_end=78800
+loop_type=forward
+
+<region>
+region_label=eee_soft
+sample=choir_e_hybrid+soft 7.flac
+lokey=90
+hikey=119
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=6720
+loop_end=72639
+loop_type=forward

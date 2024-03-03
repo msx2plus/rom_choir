@@ -1,0 +1,87 @@
+// Name: choir_o_synth
+// Created with OpenMPT 1.30.04.00
+// Envelope tempo base: tempo 125 (classic tempo mode)
+
+<control>
+default_path=choir_o_synth/
+
+<group>
+bend_up=200
+bend_down=-200
+ampeg_release=2.56 // 256
+ampeg_release_shape=0
+
+eg01_amplitude=100
+eg01_points=8
+eg01_time0=0
+eg01_level0=0
+eg01_time1=0.02
+eg01_level1=0.015625
+eg01_time2=0.08
+eg01_level2=0.640625
+eg01_time3=0.16
+eg01_level3=1
+eg01_time4=0.06
+eg01_level4=0.671875
+eg01_time5=0.44
+eg01_level5=0.25
+eg01_time6=0.62
+eg01_level6=0.125
+eg01_time7=3.8
+eg01_level7=0
+eg01_sustain=3
+
+<region>
+region_label=c_dist
+sample=choir_o_synth 1.flac
+lokey=0
+hikey=64
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=1579
+loop_end=92857
+loop_type=forward
+
+<region>
+region_label=c_dist
+sample=choir_o_synth 2.flac
+lokey=65
+hikey=70
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=1253
+loop_end=139972
+loop_type=forward
+
+<region>
+region_label=c_dist
+sample=choir_o_synth 3.flac
+lokey=71
+hikey=76
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=1939
+loop_end=130537
+loop_type=forward
+
+<region>
+region_label=c_dist
+sample=choir_o_synth 4.flac
+lokey=77
+hikey=82
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=256
+loop_end=111715
+loop_type=forward
+
+<region>
+region_label=c_dist
+sample=choir_o_synth 5.flac
+lokey=120
+hikey=127
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=1579
+loop_end=92857
+loop_type=forward

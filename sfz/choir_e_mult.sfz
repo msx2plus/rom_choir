@@ -1,0 +1,118 @@
+// Name: choir_e_mult
+// Created with OpenMPT 1.30.04.00
+// Envelope tempo base: tempo 125 (classic tempo mode)
+
+<control>
+default_path=choir_e_mult/
+
+<group>
+bend_up=200
+bend_down=-200
+ampeg_release=2.56 // 256
+ampeg_release_shape=0
+
+eg01_amplitude=100
+eg01_points=7
+eg01_time0=0
+eg01_level0=0
+eg01_time1=0.02
+eg01_level1=0.015625
+eg01_time2=0.04
+eg01_level2=0.53125
+eg01_time3=0.18
+eg01_level3=1
+eg01_time4=0.16
+eg01_level4=0.203125
+eg01_time5=0.34
+eg01_level5=0.0625
+eg01_time6=1.78
+eg01_level6=0
+eg01_sustain=3
+
+<region>
+region_label=eeee
+sample=choir_e_mult 1.flac
+lokey=0
+hikey=61
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=6561
+loop_end=69875
+loop_type=forward
+
+<region>
+region_label=eeee
+sample=choir_e_mult 2.flac
+lokey=62
+hikey=65
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=6504
+loop_end=64403
+loop_type=forward
+
+<region>
+region_label=eeee
+sample=choir_e_mult 3.flac
+lokey=66
+hikey=69
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=6495
+loop_end=74292
+loop_type=forward
+
+<region>
+region_label=eeee
+sample=choir_e_mult 4.flac
+lokey=70
+hikey=73
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=5163
+loop_end=66619
+loop_type=forward
+
+<region>
+region_label=eeee
+sample=choir_e_mult 5.flac
+lokey=74
+hikey=77
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=7393
+loop_end=72109
+loop_type=forward
+
+<region>
+region_label=eeee
+sample=choir_e_mult 6.flac
+lokey=78
+hikey=81
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=6105
+loop_end=75229
+loop_type=forward
+
+<region>
+region_label=eeee
+sample=choir_e_mult 7.flac
+lokey=82
+hikey=85
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=8704
+loop_end=74431
+loop_type=forward
+
+<region>
+region_label=eeee
+sample=choir_e_mult 8.flac
+lokey=86
+hikey=119
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=6784
+loop_end=70591
+loop_type=forward

@@ -1,0 +1,139 @@
+// Name: syn_eee_done
+// Created with OpenMPT 1.30.04.00
+// Envelope tempo base: tempo 125 (classic tempo mode)
+
+<control>
+default_path=syn_eee/
+
+<group>
+bend_up=200
+bend_down=-200
+ampeg_release=2.56 // 256
+ampeg_release_shape=0
+
+eg01_amplitude=100
+eg01_points=12
+eg01_time0=0
+eg01_level0=0
+eg01_time1=0.02
+eg01_level1=0.015625
+eg01_time2=0.04
+eg01_level2=0.28125
+eg01_time3=0.1
+eg01_level3=0.75
+eg01_time4=0.1
+eg01_level4=0.921875
+eg01_time5=0.1
+eg01_level5=0.96875
+eg01_time6=0.12
+eg01_level6=1
+eg01_time7=0.14
+eg01_level7=0.34375
+eg01_time8=0.16
+eg01_level8=0.140625
+eg01_time9=0.32
+eg01_level9=0.078125
+eg01_time10=0.56
+eg01_level10=0.03125
+eg01_time11=2.24
+eg01_level11=0
+eg01_sustain=6
+
+<region>
+region_label=syn_eee_done
+sample=syn_eee 1.flac
+lokey=0
+hikey=58
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=1803
+loop_end=53548
+loop_type=forward
+
+<region>
+region_label=syn_eee_done
+sample=syn_eee 2.flac
+lokey=59
+hikey=62
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=2038
+loop_end=61828
+loop_type=forward
+
+<region>
+region_label=syn_eee_done
+sample=syn_eee 3.flac
+lokey=63
+hikey=66
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=1165
+loop_end=68648
+loop_type=forward
+
+<region>
+region_label=syn_eee_done
+sample=syn_eee 4.flac
+lokey=67
+hikey=70
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=1247
+loop_end=67336
+loop_type=forward
+
+<region>
+region_label=syn_eee_done
+sample=syn_eee 5.flac
+lokey=71
+hikey=74
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=1675
+loop_end=71247
+loop_type=forward
+
+<region>
+region_label=syn_eee_done
+sample=syn_eee 6.flac
+lokey=75
+hikey=78
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=727
+loop_end=65044
+loop_type=forward
+
+<region>
+region_label=syn_eee_done
+sample=syn_eee 7.flac
+lokey=79
+hikey=82
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=1384
+loop_end=60601
+loop_type=forward
+
+<region>
+region_label=syn_eee_done
+sample=syn_eee 8.flac
+lokey=83
+hikey=86
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=1462
+loop_end=63060
+loop_type=forward
+
+<region>
+region_label=syn_eee_done
+sample=syn_eee 9.flac
+lokey=87
+hikey=119
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=1038
+loop_end=65797
+loop_type=forward

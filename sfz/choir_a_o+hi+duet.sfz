@@ -1,0 +1,137 @@
+// Name: choir_a_o+hi+duet
+// Created with OpenMPT 1.30.04.00
+// Envelope tempo base: tempo 125 (classic tempo mode)
+
+<control>
+default_path=choir_a_o+hi+duet/
+
+<group>
+bend_up=200
+bend_down=-200
+ampeg_release=2.56 // 256
+ampeg_release_shape=0
+
+eg01_amplitude=100
+eg01_points=7
+eg01_time0=0
+eg01_level0=0
+eg01_time1=0.02
+eg01_level1=0.03125
+eg01_time2=0.1
+eg01_level2=0.984375
+eg01_time3=0.12
+eg01_level3=0.34375
+eg01_time4=0.26
+eg01_level4=0.140625
+eg01_time5=0.2
+eg01_level5=0.09375
+eg01_time6=2.94
+eg01_level6=0
+eg01_sustain=2
+
+eg02_pan=100
+eg02_points=2
+eg02_time0=0
+eg02_level0=0
+eg02_time1=0.2
+eg02_level1=0
+eg02_sustain=1
+
+<region>
+region_label=vox_aah_hi
+sample=choir_a_o+hi+duet 1.flac
+lokey=0
+hikey=61
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=6276
+loop_end=57856
+loop_type=forward
+
+<region>
+region_label=vox_aah_hi
+sample=choir_a_o+hi+duet 2.flac
+lokey=62
+hikey=65
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=5389
+loop_end=52879
+loop_type=forward
+
+<region>
+region_label=vox_aah_hi
+sample=choir_a_o+hi+duet 3.flac
+lokey=66
+hikey=69
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=4610
+loop_end=54465
+loop_type=forward
+
+<region>
+region_label=vox_aah_hi
+sample=choir_a_o+hi+duet 4.flac
+lokey=70
+hikey=73
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=4773
+loop_end=52625
+loop_type=forward
+
+<region>
+region_label=vox_aah_hi
+sample=choir_a_o+hi+duet 5.flac
+lokey=74
+hikey=77
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=5934
+loop_end=60562
+loop_type=forward
+
+<region>
+region_label=vox_aah_hi
+sample=choir_a_o+hi+duet 6.flac
+lokey=78
+hikey=81
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=5474
+loop_end=59095
+loop_type=forward
+
+<region>
+region_label=vox_aah_hi
+sample=choir_a_o+hi+duet 7.flac
+lokey=82
+hikey=85
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=4048
+loop_end=47944
+loop_type=forward
+
+<region>
+region_label=vox_aah_hi
+sample=choir_a_o+hi+duet 8.flac
+lokey=86
+hikey=89
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=4156
+loop_end=53870
+loop_type=forward
+
+<region>
+region_label=vox_aah_hi
+sample=choir_a_o+hi+duet 9.flac
+lokey=90
+hikey=119
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=6511
+loop_end=66294
+loop_type=forward

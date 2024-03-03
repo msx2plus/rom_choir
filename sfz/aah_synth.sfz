@@ -1,0 +1,139 @@
+// Name: aah_synth_done
+// Created with OpenMPT 1.30.04.00
+// Envelope tempo base: tempo 125 (classic tempo mode)
+
+<control>
+default_path=aah_synth/
+
+<group>
+bend_up=200
+bend_down=-200
+ampeg_release=2.56 // 256
+ampeg_release_shape=0
+
+eg01_amplitude=100
+eg01_points=12
+eg01_time0=0
+eg01_level0=0
+eg01_time1=0.02
+eg01_level1=0.015625
+eg01_time2=0.04
+eg01_level2=0.28125
+eg01_time3=0.1
+eg01_level3=0.75
+eg01_time4=0.1
+eg01_level4=0.921875
+eg01_time5=0.1
+eg01_level5=0.96875
+eg01_time6=0.12
+eg01_level6=1
+eg01_time7=0.14
+eg01_level7=0.34375
+eg01_time8=0.16
+eg01_level8=0.140625
+eg01_time9=0.32
+eg01_level9=0.078125
+eg01_time10=0.56
+eg01_level10=0.03125
+eg01_time11=2.24
+eg01_level11=0
+eg01_sustain=6
+
+<region>
+region_label=aah_synth_done
+sample=aah_synth 1.flac
+lokey=0
+hikey=56
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=2768
+loop_end=54835
+loop_type=forward
+
+<region>
+region_label=aah_synth_done
+sample=aah_synth 2.flac
+lokey=57
+hikey=60
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=3062
+loop_end=48413
+loop_type=forward
+
+<region>
+region_label=aah_synth_done
+sample=aah_synth 3.flac
+lokey=61
+hikey=64
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=3776
+loop_end=66559
+loop_type=forward
+
+<region>
+region_label=aah_synth_done
+sample=aah_synth 4.flac
+lokey=65
+hikey=68
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=1711
+loop_end=62734
+loop_type=forward
+
+<region>
+region_label=aah_synth_done
+sample=aah_synth 5.flac
+lokey=69
+hikey=72
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=1947
+loop_end=62384
+loop_type=forward
+
+<region>
+region_label=aah_synth_done
+sample=aah_synth 6.flac
+lokey=73
+hikey=76
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=3216
+loop_end=42429
+loop_type=forward
+
+<region>
+region_label=aah_synth_done
+sample=aah_synth 7.flac
+lokey=77
+hikey=80
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=1241
+loop_end=48705
+loop_type=forward
+
+<region>
+region_label=aah_synth_done
+sample=aah_synth 8.flac
+lokey=81
+hikey=84
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=1051
+loop_end=64300
+loop_type=forward
+
+<region>
+region_label=aah_synth_done
+sample=aah_synth 9.flac
+lokey=85
+hikey=119
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=1512
+loop_end=53595
+loop_type=forward

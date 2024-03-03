@@ -1,0 +1,193 @@
+// Name: choir_a_m+solo
+// Created with OpenMPT 1.30.04.00
+// Envelope tempo base: tempo 125 (classic tempo mode)
+
+<control>
+default_path=choir_a_m+solo/
+
+<group>
+bend_up=200
+bend_down=-200
+ampeg_release=2.56 // 256
+ampeg_release_shape=0
+
+eg01_amplitude=100
+eg01_points=6
+eg01_time0=0
+eg01_level0=0
+eg01_time1=0.1
+eg01_level1=1
+eg01_time2=0.24
+eg01_level2=0.25
+eg01_time3=0.18
+eg01_level3=0.09375
+eg01_time4=0.3
+eg01_level4=0.046875
+eg01_time5=2
+eg01_level5=0
+eg01_sustain=1
+
+<region>
+region_label=aaa_RVC_1
+sample=choir_a_m+solo 1.flac
+lokey=0
+hikey=61
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=3641
+loop_end=36368
+loop_type=forward
+
+<region>
+region_label=aaa_RVC_1
+sample=choir_a_m+solo 2.flac
+lokey=62
+hikey=63
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=3869
+loop_end=40918
+loop_type=forward
+
+<region>
+region_label=aaa_RVC_1
+sample=choir_a_m+solo 3.flac
+lokey=64
+hikey=65
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=4352
+loop_end=38791
+loop_type=forward
+
+<region>
+region_label=aaa_RVC_1
+sample=choir_a_m+solo 4.flac
+lokey=66
+hikey=67
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=4937
+loop_end=40383
+loop_type=forward
+
+<region>
+region_label=aaa_RVC_1
+sample=choir_a_m+solo 5.flac
+lokey=68
+hikey=69
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=4064
+loop_end=33713
+loop_type=forward
+
+<region>
+region_label=aaa_RVC_1
+sample=choir_a_m+solo 6.flac
+lokey=70
+hikey=71
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=5536
+loop_end=38333
+loop_type=forward
+
+<region>
+region_label=aaa_RVC_1
+sample=choir_a_m+solo 7.flac
+lokey=72
+hikey=73
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=5056
+loop_end=40683
+loop_type=forward
+
+<region>
+region_label=aaa_RVC_1
+sample=choir_a_m+solo 8.flac
+lokey=74
+hikey=75
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=5888
+loop_end=40892
+loop_type=forward
+
+<region>
+region_label=aaa_RVC_1
+sample=choir_a_m+solo 9.flac
+lokey=76
+hikey=77
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=4384
+loop_end=36782
+loop_type=forward
+
+<region>
+region_label=aaa_RVC_1
+sample=choir_a_m+solo 10.flac
+lokey=78
+hikey=79
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=4704
+loop_end=28814
+loop_type=forward
+
+<region>
+region_label=aaa_RVC_1
+sample=choir_a_m+solo 11.flac
+lokey=80
+hikey=81
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=6016
+loop_end=34719
+loop_type=forward
+
+<region>
+region_label=aaa_RVC_1
+sample=choir_a_m+solo 12.flac
+lokey=82
+hikey=83
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=6719
+loop_end=37278
+loop_type=forward
+
+<region>
+region_label=aaa_RVC_1
+sample=choir_a_m+solo 13.flac
+lokey=84
+hikey=85
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=7328
+loop_end=34239
+loop_type=forward
+
+<region>
+region_label=aaa_RVC_1
+sample=choir_a_m+solo 14.flac
+lokey=86
+hikey=118
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=5376
+loop_end=34389
+loop_type=forward
+
+<region>
+region_label=aaa_RVC_1
+sample=choir_a_m+solo 15.flac
+lokey=119
+hikey=119
+pitch_keycenter=61
+loop_mode=loop_continuous
+loop_start=5376
+loop_end=34389
+loop_type=forward

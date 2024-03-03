@@ -1,0 +1,126 @@
+// Name: choir_a_os+midmix
+// Created with OpenMPT 1.30.04.00
+// Envelope tempo base: tempo 125 (classic tempo mode)
+
+<control>
+default_path=choir_a_os+midmix/
+
+<group>
+bend_up=200
+bend_down=-200
+ampeg_release=2.56 // 256
+ampeg_release_shape=0
+
+eg01_amplitude=100
+eg01_points=7
+eg01_time0=0
+eg01_level0=0
+eg01_time1=0.02
+eg01_level1=0.03125
+eg01_time2=0.1
+eg01_level2=0.984375
+eg01_time3=0.12
+eg01_level3=0.34375
+eg01_time4=0.26
+eg01_level4=0.140625
+eg01_time5=0.2
+eg01_level5=0.09375
+eg01_time6=2.94
+eg01_level6=0
+eg01_sustain=2
+
+eg02_pan=100
+eg02_points=2
+eg02_time0=0
+eg02_level0=0
+eg02_time1=0.2
+eg02_level1=0
+eg02_sustain=1
+
+<region>
+region_label=aah
+sample=choir_a_os+midmix 1.flac
+lokey=0
+hikey=61
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=6426
+loop_end=68335
+loop_type=forward
+
+<region>
+region_label=aah
+sample=choir_a_os+midmix 2.flac
+lokey=62
+hikey=65
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=6263
+loop_end=61728
+loop_type=forward
+
+<region>
+region_label=aah
+sample=choir_a_os+midmix 3.flac
+lokey=66
+hikey=69
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=5219
+loop_end=47306
+loop_type=forward
+
+<region>
+region_label=aah
+sample=choir_a_os+midmix 4.flac
+lokey=70
+hikey=73
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=6938
+loop_end=60114
+loop_type=forward
+
+<region>
+region_label=aah
+sample=choir_a_os+midmix 5.flac
+lokey=74
+hikey=77
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=7989
+loop_end=59874
+loop_type=forward
+
+<region>
+region_label=aah
+sample=choir_a_os+midmix 6.flac
+lokey=78
+hikey=81
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=7168
+loop_end=60671
+loop_type=forward
+
+<region>
+region_label=aah
+sample=choir_a_os+midmix 7.flac
+lokey=82
+hikey=95
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=7744
+loop_end=46655
+loop_type=forward
+
+<region>
+region_label=aah
+sample=choir_a_os+midmix 8.flac
+lokey=96
+hikey=119
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=6426
+loop_end=68335
+loop_type=forward

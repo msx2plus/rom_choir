@@ -1,0 +1,193 @@
+// Name: choir_o+small
+// Created with OpenMPT 1.30.04.00
+// Envelope tempo base: tempo 125 (classic tempo mode)
+
+<control>
+default_path=choir_o+small/
+
+<group>
+bend_up=200
+bend_down=-200
+ampeg_release=2.56 // 256
+ampeg_release_shape=0
+
+eg01_amplitude=100
+eg01_points=6
+eg01_time0=0
+eg01_level0=0
+eg01_time1=0.24
+eg01_level1=1
+eg01_time2=0.1
+eg01_level2=0.25
+eg01_time3=0.18
+eg01_level3=0.09375
+eg01_time4=0.3
+eg01_level4=0.046875
+eg01_time5=2
+eg01_level5=0
+eg01_sustain=1
+
+<region>
+region_label=ch_asmall
+sample=choir_o+small 1.flac
+lokey=0
+hikey=63
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=5626
+loop_end=103099
+loop_type=forward
+
+<region>
+region_label=ch_asmall
+sample=choir_o+small 2.flac
+lokey=64
+hikey=65
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=6949
+loop_end=94836
+loop_type=forward
+
+<region>
+region_label=ch_asmall
+sample=choir_o+small 3.flac
+lokey=66
+hikey=67
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=7678
+loop_end=97058
+loop_type=forward
+
+<region>
+region_label=ch_asmall
+sample=choir_o+small 4.flac
+lokey=68
+hikey=69
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=6437
+loop_end=90123
+loop_type=forward
+
+<region>
+region_label=ch_asmall
+sample=choir_o+small 5.flac
+lokey=70
+hikey=71
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=8925
+loop_end=111019
+loop_type=forward
+
+<region>
+region_label=ch_asmall
+sample=choir_o+small 6.flac
+lokey=72
+hikey=73
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=4852
+loop_end=103736
+loop_type=forward
+
+<region>
+region_label=ch_asmall
+sample=choir_o+small 7.flac
+lokey=74
+hikey=75
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=5616
+loop_end=105270
+loop_type=forward
+
+<region>
+region_label=ch_asmall
+sample=choir_o+small 8.flac
+lokey=76
+hikey=77
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=5468
+loop_end=98210
+loop_type=forward
+
+<region>
+region_label=ch_asmall
+sample=choir_o+small 9.flac
+lokey=78
+hikey=79
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=8965
+loop_end=98168
+loop_type=forward
+
+<region>
+region_label=ch_asmall
+sample=choir_o+small 10.flac
+lokey=80
+hikey=81
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=11742
+loop_end=118138
+loop_type=forward
+
+<region>
+region_label=ch_asmall
+sample=choir_o+small 11.flac
+lokey=82
+hikey=83
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=10718
+loop_end=117190
+loop_type=forward
+
+<region>
+region_label=ch_asmall
+sample=choir_o+small 12.flac
+lokey=84
+hikey=85
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=8748
+loop_end=97925
+loop_type=forward
+
+<region>
+region_label=ch_asmall
+sample=choir_o+small 13.flac
+lokey=86
+hikey=87
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=10383
+loop_end=109145
+loop_type=forward
+
+<region>
+region_label=ch_asmall
+sample=choir_o+small 14.flac
+lokey=88
+hikey=89
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=10479
+loop_end=106322
+loop_type=forward
+
+<region>
+region_label=ch_asmall
+sample=choir_o+small 15.flac
+lokey=90
+hikey=119
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=9688
+loop_end=108808
+loop_type=forward

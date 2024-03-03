@@ -1,0 +1,117 @@
+// Name: organ1_done
+// Created with OpenMPT 1.30.04.00
+// Envelope tempo base: tempo 125 (classic tempo mode)
+
+<control>
+default_path=organ1/
+
+<group>
+bend_up=200
+bend_down=-200
+ampeg_release=2.56 // 256
+ampeg_release_shape=0
+
+eg01_amplitude=100
+eg01_points=12
+eg01_time0=0
+eg01_level0=0
+eg01_time1=0.02
+eg01_level1=0.015625
+eg01_time2=0.04
+eg01_level2=0.28125
+eg01_time3=0.1
+eg01_level3=0.75
+eg01_time4=0.1
+eg01_level4=0.921875
+eg01_time5=0.1
+eg01_level5=0.96875
+eg01_time6=0.12
+eg01_level6=1
+eg01_time7=0.14
+eg01_level7=0.34375
+eg01_time8=0.16
+eg01_level8=0.140625
+eg01_time9=0.32
+eg01_level9=0.078125
+eg01_time10=0.56
+eg01_level10=0.03125
+eg01_time11=2.24
+eg01_level11=0
+eg01_sustain=6
+
+<region>
+region_label=organ1_done
+sample=organ1 1.flac
+lokey=0
+hikey=57
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=398
+loop_end=47424
+loop_type=forward
+
+<region>
+region_label=organ1_done
+sample=organ1 2.flac
+lokey=58
+hikey=61
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=1744
+loop_end=59998
+loop_type=forward
+
+<region>
+region_label=organ1_done
+sample=organ1 3.flac
+lokey=62
+hikey=65
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=1356
+loop_end=57795
+loop_type=forward
+
+<region>
+region_label=organ1_done
+sample=organ1 4.flac
+lokey=66
+hikey=71
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=2231
+loop_end=62828
+loop_type=forward
+
+<region>
+region_label=organ1_done
+sample=organ1 5.flac
+lokey=72
+hikey=77
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=1057
+loop_end=57273
+loop_type=forward
+
+<region>
+region_label=organ1_done
+sample=organ1 6.flac
+lokey=78
+hikey=81
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=843
+loop_end=59946
+loop_type=forward
+
+<region>
+region_label=organ1_done
+sample=organ1 7.flac
+lokey=82
+hikey=119
+pitch_keycenter=60
+loop_mode=loop_continuous
+loop_start=1387
+loop_end=52429
+loop_type=forward
